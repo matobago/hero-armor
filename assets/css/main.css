@@ -3633,6 +3633,48 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
+		#banner .banner-copy {
+			font-size: 18pt;
+			line-height: 1.52;
+		}
+
+			@media screen and (max-width: 1680px) {
+
+				#banner .banner-copy {
+					font-size: 16pt;
+				}
+
+			}
+
+			@media screen and (max-width: 1280px) {
+
+				#banner .banner-copy {
+					font-size: 15pt;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				#banner .banner-copy {
+					font-size: 14pt;
+				}
+
+			}
+
+		#banner .banner-copy p {
+			letter-spacing: 0.02em;
+			text-transform: none;
+		}
+
+		#banner .banner-copy p.banner-slogan {
+			font-size: 1.5em;
+			font-weight: 700;
+			letter-spacing: 0.04em;
+			line-height: 1.35;
+			margin-bottom: 0.85em;
+		}
+
 			#banner p a {
 				color: inherit;
 			}
@@ -3654,7 +3696,7 @@ input, select, textarea {
 			bottom: 0;
 			color: inherit;
 			font-size: 0.8em;
-			height: 8.5em;
+			height: 7em;
 			left: 50%;
 			letter-spacing: 0.225em;
 			margin-left: -8.5em;
@@ -3673,7 +3715,7 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 4em;
+				bottom: 3em;
 				content: '';
 				display: block;
 				height: 1.5em;
